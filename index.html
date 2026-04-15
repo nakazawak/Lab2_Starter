@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Triton Software Engineering Meeting</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Meeting minutes for Triton Software Engineering "
+    />
+    <link rel="icon" href="favicon.ico" />
+  </head>
+  <body>
+    <header>
+      <h1>Triton Software Engineering Meeting #1</h1>
+      <h2>Quote of the Day: "67"</h2>
+
+      <div>
+        <h2>Date: April 14th, 2026, 10:45am</h2>
+        <h3>Scribe: <span>Koji Nakazawa</span></h3>
+      </div>
+
+      <nav>
+        <h2>Meeting Navigation</h2>
+        <ul>
+          <li><a href="#attendance">Attendance</a></li>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#unfinished-business">Unfinished Business</a></li>
+          <li><a href="#new-business">New Business</a></li>
+          <li><a href="#misc">Miscellaneous</a></li>
+          <li><a href="#supplemental">Supplemental Resources</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section id="attendance">
+        <h2>Attendance</h2>
+        <ul>
+          <li>Koji</li>
+          <li>Andre</li>
+          <li>Max</li>
+        </ul>
+      </section>
+
+      <hr />
+
+      <section id="agenda">
+        <h2>Agenda</h2>
+        <ul>
+          <li>Review meeting minutes from last meeting</li>
+          <li>New client demo updates</li>
+          <li>Open floor for questions and concerns</li>
+        </ul>
+      </section>
+
+      <hr />
+
+        <section id="new-business">
+          <h2>New Business</h2>
+          <ul>
+            <li>Complete table frontend</li>
+            <li>Meet with client and discussed product improvements</li>
+            <li>Complete MVP</li>
+          </ul>
+        </section>
+
+      <hr />
+
+      <section id="unfinished-business">
+        <h2>Unfinished Business</h2>
+        <ol>
+          <li>PR review #22</li>
+          <li>Add csv export feature</li>
+          <li>Revise table design</li>
+          <li>
+            <a href="https://geminicli.com/docs/">Refer to Gemini CLI docs</a>
+          </li>
+        </ol>
+        <p>
+          <strong>Important:</strong> All bug fixes <em>must</em> be submitted
+          by 5:00PM.<br />
+          Make sure to @ the slack channel once completed
+        </p>
+      </section>
+
+      <hr />
+
+      <section id="misc">
+        <h2>Miscellaneous</h2>
+        <p>Comments, questions, and concerns raised during the meeting:</p>
+        <ul>
+          <li>When is the next client demo scheduled?</li>
+          <li>Should we add unit tests before merging the MVP branch?</li>
+          <li>Andre will be out next week so tasks need to be redistributed.</li>
+        </ul>
+      </section>
+
+      <hr />
+
+      <section id="nextmeeting">
+        <h2>Next Meeting</h2>
+        <p>
+          The next meeting will take place in <b><i>WLH 1225</i></b> at
+          <b>10:00am</b>
+        </p>
+      </section>
+
+      <hr />
+
+      <section id="supplemental">
+        <h2>Supplemental Resources</h2>
+        <h3>Whiteboard Diagram</h3>
+        <img src="diagram.png" alt="Whiteboard diagram from the meeting" width="600" />
+        <h3>Audio Recording</h3>
+        <audio controls>
+          <source src="audio.mp3" type="audio/mpeg" />
+          Your browser does not support the audio element.
+        </audio>
+        <h3>Video Recording</h3>
+        <video controls width="640">
+          <source src="video.mp4" type="video/mp4" />
+          Your browser does not support the video element.
+        </video>
+
+        <details>
+          <summary>Meeting Notes FAQ</summary>
+          <p>These meeting minutes were recorded by the scribe and approved by all attendees. For questions, reach out via the team Slack channel.</p>
+        </details>
+      </section>
+
+      <hr />
+
+      <section id="feedback-form">
+        <h2>Meeting Feedback Form</h2>
+        <form>
+          <fieldset>
+            <legend>Feedback</legend>
+
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" />
+            <br /><br />
+
+            <label for="meeting-date">Meeting Date:</label>
+            <input type="date" id="meeting-date" name="meeting-date" />
+            <br /><br />
+
+            <label><input type="radio" name="rating" value="good" /> I want a bagel next meeting</label>
+            <br /><br />
+
+            <label><input type="checkbox" name="attended" value="yes" /> I attended this meeting</label>
+            <br /><br />
+
+            <label for="team">Team:</label>
+            <select id="team" name="team">
+              <option value="">-- Select --</option>
+              <option value="frontend">Frontend</option>
+              <option value="backend">Backend</option>
+            </select>
+            <br /><br />
+
+            <label for="member">Team member:</label>
+            <input type="text" id="member" name="member" list="member-list" placeholder="Start typing..." />
+            <datalist id="member-list">
+              <option value="Koji" />
+              <option value="Andre" />
+              <option value="Max" />
+            </datalist>
+            <br /><br />
+
+            <label for="comments">Comments:</label><br />
+            <textarea id="comments" name="comments" rows="4" cols="40" placeholder="Any comments or concerns..."></textarea>
+          </fieldset>
+
+          <button type="submit">Submit</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>Triton Software Engineering &mdash; Meeting #1 &mdash; April 14th, 2026</p>
+    </footer>
+  </body>
+</html>
